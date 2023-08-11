@@ -21,8 +21,27 @@ As the inital stages of development took place, there were several design choice
 - Real Time Audio/MIDI Capture: Recoding starts the moment the master record button in the digital audio workstation is pressed. This ensures that not a moment in the studio will be missed.
 - Seamless Integration: Using the RNBO feature from Max/MSP, this max patch can be exported as a VST3 to whichever digital audio workstation of your choosing. It can also be exported into raw C++ source code as well.
 - Visual Feedback: While the idea of this plugin is that you can "set it and forget it"; it is sometimes nice to have some visual feedback from the plugin as well. In this case the plugin will change color from its normal bright red to signify that it has stopped recording.
+- Simplistic User Interface: Music production, mixing, and mastering are all complex enough as it is. The Big Red Button attempts to not add to the cluttered visual space and rather it allows its users to focus on the tasks at hand.
 
--- (Initial Design Diagram) --
+## Getting Started / System Requirements
+
+1. Verify that you are at least running Max/MSP v.8.5.3 (tested on v.8.5.3 [arm64 mac]) and have RNBO for Max.
+2. Launch the Big Red Button Max Patch
+3. (Non Ableton DAWs): export the patch using RNBO to VST3 for digital audio workstation
+4. (Ableton): Export the max patch to a Max for Live Device
+
+## Useful Resources 
+- [Max Documentation](https://docs.cycling74.com/max8)
+- [Cycling '74 Gen Code Export](https://cycling74.com/tutorials/gen-code-export-vst)
+
+## Conclusion
+
+In summary this Max/MSP plugin set out to close the gap between the technical processes and artistic inspiration by providing its users with a simple and effective solution to a common error within music studios. Not only does this application apply to music though; the Big Red Button can also be used in other areas where recording sound is essential such in the world of voice acting or perhaps even recording podcasts audio. By using the capabilities of the Max/MSP development environment, this project reshapes the way that spontaneous musicality is captured in music studios across the world.
+
+## Authors
+
+**[Michael Collins](https://github.com/mcollins21)**
+
+-- (Initial Problem and Design Diagram) --
 
 ![BigRedButtonDesign](BigRedButtonDesign.png)
-
